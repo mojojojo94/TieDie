@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE25F9FF1D062638009B621D /* enemy23.png in Resources */ = {isa = PBXBuildFile; fileRef = FE25F9FE1D062638009B621D /* enemy23.png */; };
 		FE7177801CF432EA003ED39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71777F1CF432EA003ED39A /* main.m */; };
 		FE7177831CF432EA003ED39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7177821CF432EA003ED39A /* AppDelegate.m */; };
 		FE7177861CF432EA003ED39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7177851CF432EA003ED39A /* ViewController.m */; };
 		FE7177891CF432EA003ED39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7177871CF432EA003ED39A /* Main.storyboard */; };
-		FE71778B1CF432EA003ED39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE71778A1CF432EA003ED39A /* Assets.xcassets */; };
-		FE71778E1CF432EA003ED39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE71778C1CF432EA003ED39A /* LaunchScreen.storyboard */; };
 		FE7177991CF432EA003ED39A /* TieDieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7177981CF432EA003ED39A /* TieDieTests.m */; };
 		FE7177A41CF432EA003ED39A /* TieDieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7177A31CF432EA003ED39A /* TieDieUITests.m */; };
+		FEDD3B151CF6CFA90076AA39 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B141CF6CFA90076AA39 /* background.jpg */; };
+		FEDD3B171CF6D46F0076AA39 /* lifeLostLine.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B161CF6D46F0076AA39 /* lifeLostLine.png */; };
+		FEDD3B1B1CF6D6590076AA39 /* l0_sprite_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B181CF6D6590076AA39 /* l0_sprite_1.png */; };
+		FEDD3B1C1CF6D6590076AA39 /* l0_sprite_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B191CF6D6590076AA39 /* l0_sprite_2.png */; };
+		FEDD3B1D1CF6D6590076AA39 /* l0_sprite_3.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B1A1CF6D6590076AA39 /* l0_sprite_3.png */; };
+		FEDD3B211CFE78980076AA39 /* bullet2.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B201CFE78980076AA39 /* bullet2.png */; };
+		FEDD3B251CFE7A6B0076AA39 /* l0_enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B221CFE7A6B0076AA39 /* l0_enemy1.png */; };
+		FEDD3B261CFE7A6B0076AA39 /* l0_enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B231CFE7A6B0076AA39 /* l0_enemy2.png */; };
+		FEDD3B271CFE7A6B0076AA39 /* l0_enemy3.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B241CFE7A6B0076AA39 /* l0_enemy3.png */; };
+		FEDD3B2A1CFE836F0076AA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B281CFE836F0076AA39 /* LaunchScreen.storyboard */; };
+		FEDD3B2E1CFE84C30076AA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDD3B2D1CFE84C30076AA39 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE25F9FE1D062638009B621D /* enemy23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy23.png; sourceTree = "<group>"; };
 		FE71777B1CF432EA003ED39A /* TieDie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TieDie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE71777F1CF432EA003ED39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE7177811CF432EA003ED39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,8 +53,6 @@
 		FE7177841CF432EA003ED39A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FE7177851CF432EA003ED39A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE7177881CF432EA003ED39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE71778A1CF432EA003ED39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE71778D1CF432EA003ED39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE71778F1CF432EA003ED39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE7177941CF432EA003ED39A /* TieDieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TieDieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7177981CF432EA003ED39A /* TieDieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TieDieTests.m; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		FE71779F1CF432EA003ED39A /* TieDieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TieDieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7177A31CF432EA003ED39A /* TieDieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TieDieUITests.m; sourceTree = "<group>"; };
 		FE7177A51CF432EA003ED39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDD3B141CF6CFA90076AA39 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		FEDD3B161CF6D46F0076AA39 /* lifeLostLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeLostLine.png; sourceTree = "<group>"; };
+		FEDD3B181CF6D6590076AA39 /* l0_sprite_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_sprite_1.png; sourceTree = "<group>"; };
+		FEDD3B191CF6D6590076AA39 /* l0_sprite_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_sprite_2.png; sourceTree = "<group>"; };
+		FEDD3B1A1CF6D6590076AA39 /* l0_sprite_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_sprite_3.png; sourceTree = "<group>"; };
+		FEDD3B201CFE78980076AA39 /* bullet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet2.png; sourceTree = "<group>"; };
+		FEDD3B221CFE7A6B0076AA39 /* l0_enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_enemy1.png; sourceTree = "<group>"; };
+		FEDD3B231CFE7A6B0076AA39 /* l0_enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_enemy2.png; sourceTree = "<group>"; };
+		FEDD3B241CFE7A6B0076AA39 /* l0_enemy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l0_enemy3.png; sourceTree = "<group>"; };
+		FEDD3B291CFE836F0076AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEDD3B2D1CFE84C30076AA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +126,8 @@
 				FE7177841CF432EA003ED39A /* ViewController.h */,
 				FE7177851CF432EA003ED39A /* ViewController.m */,
 				FE7177871CF432EA003ED39A /* Main.storyboard */,
-				FE71778A1CF432EA003ED39A /* Assets.xcassets */,
-				FE71778C1CF432EA003ED39A /* LaunchScreen.storyboard */,
+				FEDD3B281CFE836F0076AA39 /* LaunchScreen.storyboard */,
+				FEDD3B2D1CFE84C30076AA39 /* Assets.xcassets */,
 				FE71778F1CF432EA003ED39A /* Info.plist */,
 				FE71777E1CF432EA003ED39A /* Supporting Files */,
 			);
@@ -117,6 +137,16 @@
 		FE71777E1CF432EA003ED39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE25F9FE1D062638009B621D /* enemy23.png */,
+				FEDD3B221CFE7A6B0076AA39 /* l0_enemy1.png */,
+				FEDD3B231CFE7A6B0076AA39 /* l0_enemy2.png */,
+				FEDD3B241CFE7A6B0076AA39 /* l0_enemy3.png */,
+				FEDD3B201CFE78980076AA39 /* bullet2.png */,
+				FEDD3B181CF6D6590076AA39 /* l0_sprite_1.png */,
+				FEDD3B191CF6D6590076AA39 /* l0_sprite_2.png */,
+				FEDD3B1A1CF6D6590076AA39 /* l0_sprite_3.png */,
+				FEDD3B161CF6D46F0076AA39 /* lifeLostLine.png */,
+				FEDD3B141CF6CFA90076AA39 /* background.jpg */,
 				FE71777F1CF432EA003ED39A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +273,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE71778E1CF432EA003ED39A /* LaunchScreen.storyboard in Resources */,
-				FE71778B1CF432EA003ED39A /* Assets.xcassets in Resources */,
+				FEDD3B171CF6D46F0076AA39 /* lifeLostLine.png in Resources */,
+				FEDD3B211CFE78980076AA39 /* bullet2.png in Resources */,
+				FEDD3B251CFE7A6B0076AA39 /* l0_enemy1.png in Resources */,
+				FEDD3B271CFE7A6B0076AA39 /* l0_enemy3.png in Resources */,
+				FEDD3B1B1CF6D6590076AA39 /* l0_sprite_1.png in Resources */,
+				FEDD3B151CF6CFA90076AA39 /* background.jpg in Resources */,
 				FE7177891CF432EA003ED39A /* Main.storyboard in Resources */,
+				FEDD3B1D1CF6D6590076AA39 /* l0_sprite_3.png in Resources */,
+				FE25F9FF1D062638009B621D /* enemy23.png in Resources */,
+				FEDD3B1C1CF6D6590076AA39 /* l0_sprite_2.png in Resources */,
+				FEDD3B2A1CFE836F0076AA39 /* LaunchScreen.storyboard in Resources */,
+				FEDD3B2E1CFE84C30076AA39 /* Assets.xcassets in Resources */,
+				FEDD3B261CFE7A6B0076AA39 /* l0_enemy2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,10 +356,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FE71778C1CF432EA003ED39A /* LaunchScreen.storyboard */ = {
+		FEDD3B281CFE836F0076AA39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE71778D1CF432EA003ED39A /* Base */,
+				FEDD3B291CFE836F0076AA39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -460,6 +500,7 @@
 		FE7177AF1CF432EA003ED39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				INFOPLIST_FILE = TieDieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangemangotiger.TieDieUITests;
@@ -498,6 +539,7 @@
 				FE7177AA1CF432EA003ED39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7177AB1CF432EA003ED39A /* Build configuration list for PBXNativeTarget "TieDieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +548,7 @@
 				FE7177AD1CF432EA003ED39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7177AE1CF432EA003ED39A /* Build configuration list for PBXNativeTarget "TieDieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +557,7 @@
 				FE7177B01CF432EA003ED39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
